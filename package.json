@@ -1,0 +1,21 @@
+{
+  "name": "zama-testnet-repo",
+  "version": "0.1.0",
+  "description": "Companion to Carlys17/zama-testnet: example FHE contracts (voting, ERC20, auction, lottery), deploy script, cheat sheet.",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy-all.ts --network zamaTestnet"
+  },
+  "dependencies": {
+    "@fhevm/solidity": "^0.5.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.0",
+    "hardhat": "^2.22.5"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.0"
+  },
+  "license": "MIT"
+}
